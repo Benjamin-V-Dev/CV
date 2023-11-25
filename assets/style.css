@@ -1,0 +1,173 @@
+/*-------------------------------------------------------------
+--------------------   CONFIGURATION CSS   --------------------
+-------------------------------------------------------------*/
+
+
+/*--------------------------
+----->   OUTLINE
+--------------------------*/
+
+/* *{
+    outline : 1px solid red!important;
+} */
+
+
+/*--------------------------
+----->   RESET
+--------------------------*/
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*--------------------------
+----->   FONT
+--------------------------*/
+@font-face {
+    font-family: "Poppins";
+    src: url(/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Righteous";
+    src: url(/Righteous/Righteous-Regular.ttf);
+}
+
+
+/*--------------------------
+----->   ROOT
+--------------------------*/
+
+
+:root {
+
+    /*--------------------------
+    ----->   VARIABLES COLOR
+    --------------------------*/
+
+    
+    /* Colors */
+    --dark-blue: rgb(32, 63, 146);
+    --blue: rgb(22, 156, 191);
+    --light-blue: rgb(159, 199, 235);
+    
+    /* General */ 
+    --dark-base: #222;
+    --lighter-dark: #333;
+    --gray: #858585;
+    --light-gray: #d2d2d2;
+    --light-white: #f1f1f1;
+    
+    /* Active */
+    --active-almond: #feecd7;
+    --active-light-white: #dedede;
+    --active-crimson: #c51337;
+    
+    /* Fonts */
+    font-family: "Poppins", sans-serif;
+    --base-font: "Poppins", sans-serif;
+    --accent-font: Nunito sans, sans-serif;
+    
+
+    /*--------------------------
+    ----->   VARIABLES FONT SIZE
+    --------------------------*/
+
+    /* Font-size ( taille en px / 16 (1rem) = taille en rem -> Exemple : 72/16 = 4.5rem ) */
+
+    --fs-8: 0.5rem;
+    --fs-10: 0.625rem;
+    --fs-12: 0.75rem;
+    --fs-14: 0.875rem;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-20: 1.25rem;
+    --fs-22: 1.375rem;
+    --fs-24: 1.5rem;
+    --fs-26: 1.625rem;
+    --fs-28: 1.75rem;
+    --fs-30: 1.875rem;
+    --fs-32: 2rem;
+    --fs-34: 2.125rem;
+    --fs-36: 2.25rem;
+    --fs-38: 2.375rem;
+    --fs-40: 2.5rem;
+    --fs-42: 2.625rem;
+    --fs-44: 2.75rem;
+    --fs-46: 2.875rem;
+    --fs-48: 3rem;
+    --fs-50: 3.125rem;
+    --fs-52: 3.25rem;
+    --fs-54: 3.375rem;
+    --fs-56: 3.5rem;
+    --fs-58: 3.625rem;
+    --fs-60: 3.75rem;
+    --fs-62: 3.875rem;
+    --fs-64: 4rem;
+    --fs-66: 4.125rem;
+    --fs-68: 4.25rem;
+    --fs-70: 4.375rem;
+    --fs-72: 4.5rem;
+}
+
+
+/*--------------------------
+----->   FONT SELECTORS
+--------------------------*/
+
+
+h1{
+    font-size: var(--fs-32);
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 5% 0%;
+}
+h2{
+    font-size: var(--fs-22);
+    color: var(--light-blue);
+    text-align: left;
+    margin-bottom: 2.5%;
+}
+h3{
+    font-size: var(--fs-24);
+}
+h4{
+    font-size: var(--fs-20);
+}
+h5{
+    font-size: var(--fs-20);
+}
+h6{
+    font-size: var(--fs-);
+}
+p,li,a{
+    font-size: var(--fs-16);
+}
+
+
+
+
+/*-------------------------------------------------------------
+--------------------   START GENERAL CSS   --------------------
+-------------------------------------------------------------*/
+
+main{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
