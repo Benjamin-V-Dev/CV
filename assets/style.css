@@ -123,30 +123,28 @@
 
 h1{
     font-size: var(--fs-32);
-    color: var(--dark-blue);
-    text-align: center;
-    margin: 5% 0%;
+    font-family: 'Righteous', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
 }
 h2{
-    font-size: var(--fs-22);
-    color: var(--light-blue);
-    text-align: left;
-    margin-bottom: 2.5%;
+    font-size: var(--fs-28);
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
 }
 h3{
-    font-size: var(--fs-24);
+    
 }
 h4{
-    font-size: var(--fs-20);
+    
 }
 h5{
-    font-size: var(--fs-20);
+    
 }
 h6{
-    font-size: var(--fs-);
+    
 }
 p,li,a{
-    font-size: var(--fs-16);
+    
 }
 
 
@@ -156,12 +154,23 @@ p,li,a{
 --------------------   START GENERAL CSS   --------------------
 -------------------------------------------------------------*/
 
-main{
+header,main,footer{
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     margin: 0 auto;
     border: 1px solid black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1%;
+}
+
+.config{
+    margin-top: 30px;
 }
 
 
